@@ -3,7 +3,7 @@ ktor:
     modules:
       - com.example.ApplicationKt.module
   db:
-    url: "jdbc:postgresql://localhost:1234/dbName"
+    url: "jdbc:postgresql://localhost:8082/dbName"
     user: "postgres"
     pass: "password"
     pool: 2
